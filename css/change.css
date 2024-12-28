@@ -1,0 +1,82 @@
+body {
+    background-image: url("../imgs/register.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 570px;
+    height: 610px;
+    border: 2px solid rgba(241, 233, 233, 0.944);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper.form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 50px;
+    color: rgb(36, 77, 108);
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.input-box {
+    width: 100;
+    height: 50px;
+    border-bottom: 3px solid rgb(68, 102, 128);
+    color: rgb(8, 27, 41);
+    margin: 30px 0;
+}
+
+.input-box label {
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgb(36, 77, 108);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-box input {
+    width: 300px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(36, 77, 108);
+}
+
+.btn {
+    width: 325px;
+    height: 47px;
+    font-size: 30px;
+    color: rgb(36, 77, 108);
+    background: white;
+    outline: none;
+    text-align: center;
+    border-radius: 35px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(59, 103, 136);
+    color: white;
+}
