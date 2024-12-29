@@ -114,6 +114,8 @@ ul {
 	z-index: 1;
 	transition: var(--main-transition);
 	text-align: center;
+	margin-top: 50px;
+
 	
 }
 

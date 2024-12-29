@@ -57,21 +57,22 @@ ul {
 	padding-bottom: var(--section-padding);
 }
 
-.special-heading {
+.contact-us-special-heading {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
 	text-align: center;
+	margin-top: 50px;
 }
 
-.special-heading h2 {
+.contact-us-special-heading h2 {
 	font-size: 40px;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin-bottom: 70px;
 	position: relative;
 }
-.special-heading h2::before {
+.contact-us-special-heading h2::before {
 	content: "";
 	position: absolute;
 	height: 2px;
@@ -81,7 +82,7 @@ ul {
 	bottom: -30px;
 	transform: translateX(-50%);
 }
-.special-heading h2::after {
+.contact-us-special-heading h2::after {
 	content: "";
 	position: absolute;
 	height: 14px;
@@ -93,7 +94,7 @@ ul {
 	bottom: -38px;
 	transform: translateX(-50%);
 }
-.special-heading p {
+.contact-us-special-heading p {
 	width: 550px;
 	margin: 0 auto 100px;
 	max-width: 100%;

@@ -11,12 +11,15 @@
 		<link rel="stylesheet" href="css/news-letter.css" />
 		<link rel="stylesheet" href="css/advice.css" />
 		<link rel="stylesheet" href="css/products.css" />
+		<link rel="stylesheet" href="css/contact-us.css" />
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap"
 			rel="stylesheet" />
+			<link rel="icon" href="imgs/Nav-logo.png" type="image/x-icon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
 		<title>Hend Abdelfattah's Pharmacy</title>
 	</head>
 	<body>
@@ -31,8 +34,8 @@
 					<i class="fas fa-bars toggle"></i>
 					<ul>
 						<li><a target="_blank" class="active" href="index.html">Home</a></li>
-						<li><a href="Products.html" class="dropbtn">Products</a>
-						<li><a target="_blank" href="contact.html">Contact Us</a></li>
+						<li><a target="_blank" href="Products.html">Products</a>
+						<li><a target="_blank" href="contact-us.html">Contact Us</a></li>
 						<li><a target="_blank" href="news-letter.html">News-letter</a></li>
 						<li><a target="_blank" href="advice.html">Advices</a></li>
 						<li><a target="_blank" href="login.html">Login</a></li>
@@ -75,7 +78,7 @@
 		<!-- News-letter start  -->
 		<div class="News-letter" id="News-letter">
 			<div class="container">
-				<h2 class="special-heading">News Letter</h2>
+				<h2 class="News-letter-special-heading">News Letter</h2>
 				<p>Always Stay Up-To-Date</p>
 				<div class="News-letter-content">
 					<div class="card">
@@ -460,7 +463,7 @@
 		<!-- advice start  -->
 		<div class="advice"id="advice">
 			<div class="container">
-				<h2 class="special-heading">Advices</h2>
+				<h2 class="advices-special-heading">Advices</h2>
 				<p>Take Advices from experts</p>
 				<div class="advice-content">
 					<div class="card">
@@ -589,8 +592,80 @@
 							</p>
 						</div>
 					</div>
+					<div class="card">
+						<img src="imgs/heart.jpg" alt="alt" />
+						<div class="info">
+							<h3>Heart Disease</h3>
+							<p>
+                            Refers to various conditions affecting the heart, such as coronary artery disease, heart attacks, and heart failure.<br>
+                            <h4>Tips:</h4>
+                        1. Eat a heart-healthy diet rich in fruits, vegetables, and whole grains.<br>
+                        2. Exercise regularly to strengthen the heart.<br>
+                        3. Avoid smoking and limit alcohol intake.<br>
+                        4. Manage stress through relaxation techniques.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- advice page  -->
 
+		<!-- contact-us start  -->
+		<div class="contact padding">
+			<div class="container">
+				<div class="contact-us-special-heading">
+					<h2>contact us</h2>
+					<p>in your Service 24 Hours, 7 Days a Week</p>
+				</div>
+				<div class="content">
+					<form action="">
+						<input
+							type="text"
+							class="main-input"
+							name="name"
+							placeholder="Your Name" />
+						<input
+							type="email"
+							class="main-input"
+							name="mail"
+							placeholder="Your Email" />
+						<textarea
+							class="main-input"
+							name="message"
+							placeholder="Your Message"
+							spellcheck="false"></textarea>
+						<input type="submit" value="Send Message" />
+					</form>
+					<div class="info">
+						<h4>Get In Touch</h4>
+						<span class="phone">+020 11 223 3445</span>
+						<span class="phone">+020 11 223 3445</span>
+						<h4>Where We Are</h4>
+						<address>
+							1200, new borg el arab<br />Alexandira, Egypt<br />+020 11 223 3445<br />
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- contact-us end  -->
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<img src="imgs/Nav-logo.png" alt="logo" />
+				<p>we are 24/7 in business , keeping you safe  </p>
+				<div class="social-icons">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fas fa-home"></i>
+					<i class="fab fa-linkedin"></i>
+				</div>
+				<p class="copyright">© 2025 <span>Hend Abdelfattah's Pharmacy</span> All Right Reserved</p>
+			</div>
+		</footer>
+
+
+</body>
+</html>

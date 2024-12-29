@@ -7,6 +7,7 @@
 
 		<!-- main css file -->
 		<link rel="stylesheet" href="css/advice.css" />
+		<link rel="stylesheet" href="css/header.css" />
 
 		<!-- normalize file  -->
 		<link rel="stylesheet" href="normalize.css" />
@@ -20,15 +21,43 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
 			rel="stylesheet" />
-		<title>Advice Page</title>
+		<title>Advices</title>
 		<link rel="icon" href="imgs/Nav-logo.png" type="image/x-icon">
 	</head>
 <body>
-    
-		<!-- advice start  -->
-		<div class="advice"id="advice">
+    <!-- header start  -->
+		<header>
 			<div class="container">
-				<h2 class="special-heading">Advices</h2>
+				<a href="#">
+					<img src="imgs/Nav-logo.png" alt="logo" />
+				</a>
+                <pc class="header-logo">Hend Abdelfattah</pc>
+				<nav>
+					<i class="fas fa-bars toggle"></i>
+					<ul>
+						<li><a target="_blank" class="active" href="index.html">Home</a></li>
+						<li><a target="_blank" href="Products.html">Products</a>
+						<li><a target="_blank" href="contact-us.html">Contact Us</a></li>
+						<li><a target="_blank" href="news-letter.html">News-letter</a></li>
+						<li><a target="_blank" href="advice.html">Advices</a></li>
+						<li><a target="_blank" href="login.html">Login</a></li>
+						<li><a target="_blank" href="change.html">Change Password</a></li>
+						<li><a target="_blank" href="register.html">Sign Up</a></li>
+						<li><a target="_blank" href="about-us.html">About Us</a></li>
+					</ul>
+					<div class="form">
+						<i class="fa-solid fa-magnifying-glass"></i>
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- header end  -->
+
+		<!-- advice start  -->
+		<div class="advice" id="advice">
+			<div class="container">
+				<h2 class="advices-special-heading">Advices</h2>
 				<p>Take Advices from experts</p>
 				<div class="advice-content">
 					<div class="card">
@@ -64,7 +93,7 @@
 						<div class="info">
 							<h3> Diabetes</h3>
 							<p>
-                             A condition that affects how your body processes blood sugar (glucose), leading to high or low blood sugar levels.
+                            A condition that affects how your body processes blood sugar (glucose), leading to high or low blood sugar levels.
                             <h4>Tips:</h4>
                         1. Eat a balanced diet with low sugar and high fiber.
                         2. Exercise regularly to help regulate blood sugar.
@@ -157,9 +186,39 @@
 							</p>
 						</div>
 					</div>
+					<div class="card">
+						<img src="imgs/heart.jpg" alt="alt" />
+						<div class="info">
+							<h3>Heart Disease</h3>
+							<p>
+                            Refers to various conditions affecting the heart, such as coronary artery disease, heart attacks, and heart failure.<br>
+                            <h4>Tips:</h4>
+                        1. Eat a heart-healthy diet rich in fruits, vegetables, and whole grains.<br>
+                        2. Exercise regularly to strengthen the heart.<br>
+                        3. Avoid smoking and limit alcohol intake.<br>
+                        4. Manage stress through relaxation techniques.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- advice page  -->
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<img src="imgs/Nav-logo.png" alt="logo" />
+				<p>we are 24/7 in business , keeping you safe  </p>
+				<div class="social-icons">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fas fa-home"></i>
+					<i class="fab fa-linkedin"></i>
+				</div>
+				<p class="copyright">© 2025 <span>Hend Abdelfattah's Pharmacy</span> All Right Reserved</p>
+			</div>
+		</footer>
+		
 
 </body>
